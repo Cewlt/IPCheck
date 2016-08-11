@@ -30,7 +30,7 @@ public class Commands implements CommandExecutor {
 					sendHelp(player);
 					return true;
 				}
-        if (args[0].equalsIgnoreCase("recent")) {
+				 if (args[0].equalsIgnoreCase("recent")) {
 					List<String> recentFinds = ipcheck.getRecentFinds();
 					player.sendMessage(ChatColor.AQUA + StringUtils.join(recentFinds, "\n "));
 					return true;
