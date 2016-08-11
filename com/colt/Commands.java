@@ -75,11 +75,11 @@ public class Commands implements CommandExecutor {
 
 	public void sendHelp(Player player) {
 		player.sendMessage(ChatColor.GREEN 
-		    + "/ipc recent  " + ChatColor.GRAY
-				+ "See the recent alt IP logs (since server restart/24hrs)"
-				+ ChatColor.GREEN + "\n/ipc toggle  " + ChatColor.GRAY
-				+ "Toggle the notification message for a possible alt account"
-				+ ChatColor.GREEN + "\n/ipc lookup [player/IP] " + ChatColor.GRAY
-				+ "Find recent alt logs for a specific (online) player or IP address");
+			+ "/ipc recent  " + ChatColor.GRAY
+			+ "See the recent alt IP logs (since server restart/24hrs)"
+			+ ChatColor.GREEN + "\n/ipc toggle  " + ChatColor.GRAY
+			+ "Toggle the notification message for a possible alt account"
+			+ ChatColor.GREEN + "\n/ipc lookup [player/IP] " + ChatColor.GRAY
+			+ "Find recent alt logs for a specific (online) player or IP address");
 	}
 }
